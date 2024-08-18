@@ -15,7 +15,7 @@ import { Switch } from "@/components/ui/switch"
 import { Separator } from "@/components/ui/separator"
 import { Loader2, RefreshCcw } from "lucide-react"
 import MessageCard from "@/components/MessageCard"
-export const page = () => {
+export const Page = () => {
   const [messages,setMessages]=useState<message[]>([])
   const [isLoading,setIsLoading]=useState(false)
   const [isSwitching,setIsSwitch]=useState(false)
@@ -183,4 +183,4 @@ export const page = () => {
   )
 }
  
-export default page
+export default Page
